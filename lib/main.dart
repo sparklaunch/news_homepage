@@ -3,8 +3,11 @@ import 'package:news_homepage/screens/main_screen.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: MainScreen(),
+    MaterialApp(
+      theme: ThemeData(
+        fontFamily: "Inter",
+      ),
+      home: const MainScreen(),
     ),
   );
 }
