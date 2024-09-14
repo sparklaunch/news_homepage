@@ -80,7 +80,83 @@ class MainScreen extends StatelessWidget {
                 decoration: const BoxDecoration(
                   color: Color.fromRGBO(0, 0, 25, 1),
                 ),
-              )
+                child: const Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      "New",
+                      style: TextStyle(
+                        fontSize: 32,
+                        fontVariations: [
+                          FontVariation("wght", 900),
+                        ],
+                        color: Color.fromRGBO(235, 158, 73, 1),
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    Text(
+                      "Hydrogen vs Electric Cars",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontVariations: [
+                          FontVariation("wght", 900),
+                        ],
+                        fontSize: 24,
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    Text(
+                      "Will hydrogen-fueled cars ever catch up to EVs?",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    Divider(),
+                    SizedBox(height: 20),
+                    Text(
+                      "The Downsides of AI Artistry",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontVariations: [
+                          FontVariation("wght", 900),
+                        ],
+                        fontSize: 24,
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    Text(
+                      "What are the possible adverse effects of on-demand AI image generation?",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    Divider(),
+                    SizedBox(height: 20),
+                    Text(
+                      "Is VC Funding Drying Up?",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontVariations: [
+                          FontVariation("wght", 900),
+                        ],
+                        fontSize: 24,
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    Text(
+                      "Private funding by VC firms is down 50% YOY. We take a look at what that means.",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
