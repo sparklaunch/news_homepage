@@ -157,6 +157,51 @@ class MainScreen extends StatelessWidget {
                   ],
                 ),
               ),
+              const SizedBox(height: 40),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Image.asset(
+                    "assets/images/RetroPictures.jpg",
+                    width: 120,
+                  ),
+                  const SizedBox(width: 20),
+                  const Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "01",
+                          style: TextStyle(
+                            fontSize: 40,
+                            fontWeight: FontWeight.bold,
+                            color: Color.fromRGBO(238, 83, 80, 1),
+                          ),
+                        ),
+                        Text(
+                          "Reviving Retro PCs",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontVariations: [
+                              FontVariation("wght", 900),
+                            ],
+                            color: Color.fromRGBO(0, 0, 25, 1),
+                          ),
+                        ),
+                        SizedBox(height: 10),
+                        Text(
+                          "What happens when old PCs are given modern upgrades?",
+                          style: TextStyle(
+                            color: Color.fromRGBO(0, 0, 25, 1),
+                            height: 1.6,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
