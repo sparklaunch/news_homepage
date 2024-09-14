@@ -11,7 +11,7 @@ class MainScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.symmetric(
             horizontal: 20,
-            vertical: 50,
+            vertical: 60,
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -191,6 +191,96 @@ class MainScreen extends StatelessWidget {
                         SizedBox(height: 10),
                         Text(
                           "What happens when old PCs are given modern upgrades?",
+                          style: TextStyle(
+                            color: Color.fromRGBO(0, 0, 25, 1),
+                            height: 1.6,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 20),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Image.asset(
+                    "assets/images/TopLaptops.jpg",
+                    width: 120,
+                  ),
+                  const SizedBox(width: 20),
+                  const Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "02",
+                          style: TextStyle(
+                            fontSize: 40,
+                            fontWeight: FontWeight.bold,
+                            color: Color.fromRGBO(238, 83, 80, 1),
+                          ),
+                        ),
+                        Text(
+                          "Top 10 Laptops of 2022",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontVariations: [
+                              FontVariation("wght", 900),
+                            ],
+                            color: Color.fromRGBO(0, 0, 25, 1),
+                          ),
+                        ),
+                        SizedBox(height: 10),
+                        Text(
+                          "Our best picks for various needs and budgets.",
+                          style: TextStyle(
+                            color: Color.fromRGBO(0, 0, 25, 1),
+                            height: 1.6,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 20),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Image.asset(
+                    "assets/images/GamingGrowth.jpg",
+                    width: 120,
+                  ),
+                  const SizedBox(width: 20),
+                  const Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "03",
+                          style: TextStyle(
+                            fontSize: 40,
+                            fontWeight: FontWeight.bold,
+                            color: Color.fromRGBO(238, 83, 80, 1),
+                          ),
+                        ),
+                        Text(
+                          "The Growth of Gaming",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontVariations: [
+                              FontVariation("wght", 900),
+                            ],
+                            color: Color.fromRGBO(0, 0, 25, 1),
+                          ),
+                        ),
+                        SizedBox(height: 10),
+                        Text(
+                          "How the pandemic has sparked fresh opportunities.",
                           style: TextStyle(
                             color: Color.fromRGBO(0, 0, 25, 1),
                             height: 1.6,
